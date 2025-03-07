@@ -4,7 +4,14 @@
 // Created on: Mar 2025
 // This file contains the JS functions for index.html
 
+/**
+ * This function calculates and displays the area and perimeter of a rectangle.
+ * The area is calculated as length * width, and the perimeter as 2 * (length + width).
+ */
 function doMathClicked() {
-  document.getElementById ("area-math").innerHTML·=   "<p>The area is: " + 5 * 3 + " cm²</p>"
-  document.getElementById ("perimeter-math").innerHTML =   "<p>The perimeter is: " + 2 * (5 + 3) + " cm</p>"
+  // Calculate and display the area
+  document.getElementById("area-math").innerHTML = "<p>The area is: " + 5 * 3 + " cm²</p>";
+
+  // Calculate and display the perimeter
+  document.getElementById("perimeter-math").innerHTML = "<p>The perimeter is: " + 2 * (5 + 3) + " cm</p>";
 }
