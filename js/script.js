@@ -10,10 +10,10 @@
  */
 function doMathClicked() {
   // Calculate and display the area
-  documentgetElementById("area-math").innerHTML = 
+  document.getElementById("area-math").innerHTML =
     "<p>The area is: " + 5 * 3 + " cm²</p>"
 
   // Calculate and display the perimeter
-  documentgetElementById("perimeter-math").innerHTML = 
+  document.getElementById("perimeter-math").innerHTML =
     "<p>The perimeter is: " + 2 * (5 + 3) + " cm</p>"
 }
